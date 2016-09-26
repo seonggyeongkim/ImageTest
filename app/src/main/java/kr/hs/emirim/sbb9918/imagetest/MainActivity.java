@@ -13,8 +13,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(new MyImage(getApplicationContext()));
-        //getApplicationContext() : 위치 반환하여 주는 context
+        setContentView(R.layout.activity_main);
     }
 
 }
