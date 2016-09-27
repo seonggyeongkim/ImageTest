@@ -19,29 +19,38 @@
         android:id="@+id/but_rotate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/but_rotate_lable"/>
+        android:text="@string/but_rotate_lable"
+        android:gravity="center"
+        android:onClick="tranceformImage"/>
 
         <Button
             android:id="@+id/but_translate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/but_translate_lable"/>
+            android:text="@string/but_translate_lable"
+            android:gravity="center"
+            android:onClick="tranceformImage"/>
 
         <Button
             android:id="@+id/but_scale"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/but_scale_lable"/>
+            android:text="@string/but_scale_lable"
+            android:gravity="center"
+            android:onClick="tranceformImage"/>
 
         <Button
             android:id="@+id/but_skew"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/but_skew_lable"/>
+            android:text="@string/but_skew_lable"
+            android:gravity="center"
+            android:onClick="tranceformImage"/>
     </LinearLayout>
-
-    <kr.hs.emirim.sbb9918.imagetest.MyImage
+    <LinearLayout
+        android:id="@+id/linear1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:orientation="horizontal"></LinearLayout>
 
 </LinearLayout>
